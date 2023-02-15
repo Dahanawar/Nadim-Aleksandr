@@ -3,7 +3,7 @@ import telebot
 import requests
 import aiogram
 
-# API_link = "https://api.telegram.org/bot5708301523:AAGuLjBSyBHAdS_SnosDHpAfVY91x14ijew"
+# API_link = "token"
 # updates = requests.get(API_link + "/getUpdates?offset=-1").json()
 # print(updates)
 
@@ -13,7 +13,7 @@ import aiogram
 #
 # sent_message = requests.get(API_link + f"/sendMessage?chat_id={chat_id}&text=Привет, ты написал {text}")
 
-bot = telebot.TeleBot("6053799423:AAHA5KzHRPpiINi2I7fgSWo0fzkUL4_vd3Q")
+bot = telebot.TeleBot("token")
 
 samsung_list = ['самсунг', 'Самсунг', 'Samsung', 'samsung', 'cfveyu', 'ыфьыгтп']
 iphone_list = ['iphone', 'IPHONE', 'афон', 'айфон', 'Iphon', 'Iphone']
